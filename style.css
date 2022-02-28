@@ -87,7 +87,11 @@ header {
 .mid-header .search input {
     width: 255px;
     height: 40px;
-    border-radius: 20px;
+    /* border-radius: 20px; */
+    border-top: none;
+    border-left: none;
+    border-right: none;
+
 }
 
 .mid-header .search button {
