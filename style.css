@@ -91,7 +91,6 @@ header {
     border-top: none;
     border-left: none;
     border-right: none;
-
 }
 
 .mid-header .search button {
@@ -341,7 +340,7 @@ nav {
     column-count: 4;
     border-radius: 0px 10px 10px 10px;
     padding: 25px;
-    z-index:2;
+    z-index: 2;
     position: absolute;
     left: 50%;
     transform: translate(-50%);
@@ -367,12 +366,21 @@ nav a {
     color: #212121;
 }
 
+nav a:hover {
+    text-decoration: none;
+    color: #00cdf5;
+}
+
 .title-menu {
     font-size: 25px;
     color: #51aac7;
     font-family: 'Lato', sans-serif;
     font-weight: 900;
     position: relative;
+}
+
+.title-menu:hover {
+    color: #51aac7;
 }
 
 .title-menu::after {
@@ -444,7 +452,7 @@ nav a {
         position: absolute;
         top: 80%;
         left: 20%;
-        transform: translate(-50%,-50%);
+        transform: translate(-50%, -50%);
         margin: 10px;
     }
     .menu .submenus {
@@ -523,4 +531,3 @@ nav a {
         padding: 25px;
     }
 }
-
