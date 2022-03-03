@@ -7,6 +7,3 @@ allBtn.forEach((btn) => {
         navMenu.classList.toggle('active-menu');
     });
 });
-
-
-

@@ -338,6 +338,8 @@ nav {
     width: 80%;
     -moz-column-count: 4;
     column-count: 4;
+    -moz-column-gap: 50px;
+    column-gap: 50px;
     border-radius: 0px 10px 10px 10px;
     padding: 25px;
     z-index: 2;
@@ -446,14 +448,27 @@ nav a:hover {
     }
     .menu-mobile {
         display: block;
-        width: 20px;
-        height: 20px;
-        background: #000;
+        width: 40px;
+        height: 40px;
+        background: #0a4759;
         position: absolute;
         top: 80%;
         left: 20%;
         transform: translate(-50%, -50%);
         margin: 10px;
+        border-radius: 20px;
+    }
+    .menu-mobile img {
+        width: 20px;
+        height: 20px;
+        display: flex;
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%, -50%);
+    }
+    .menu-mobile:hover {
+        background: #51aac7;
     }
     .menu .submenus {
         display: none;
@@ -491,6 +506,7 @@ nav a:hover {
         width: 175px;
         height: 50px;
         border-radius: 10px;
+        border: 1px solid #212121;
     }
     .mid-header .search button {
         background: #eee;
@@ -515,8 +531,8 @@ nav a:hover {
     }
     nav {
         width: 100%;
-        -moz-column-count: 2;
-        column-count: 2;
+        -moz-column-count: 1;
+        column-count: 1;
         border-radius: 10px;
         padding: 25px;
     }
