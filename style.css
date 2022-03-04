@@ -352,11 +352,12 @@ nav {
 
 nav ul {
     list-style: none;
-    font-size: 17px;
+    font-size: 18px;
     font-weight: 600;
     font-family: 'Raleway', sans-serif;
     color: #212121;
     margin-top: 10px;
+    padding: 10px;
 }
 
 nav li {
@@ -409,12 +410,26 @@ nav a:hover {
     .login {
         width: 12%;
     }
+    nav ul {
+        font-size: 14px;
+        padding: 10px;
+    }
 }
 
 @media screen and (max-width: 1050px) {
     .mid-header .cart,
     .login {
         width: 14%;
+    }
+    .menu {
+        font-size: 18px;
+    }
+    .title-menu {
+        font-size: 18px;
+    }
+    nav ul {
+        font-size: 14px;
+        padding: 10px;
     }
 }
 
@@ -427,13 +442,14 @@ nav a:hover {
         font-size: 12px;
     }
     .menu {
-        font-size: 15px;
+        font-size: 16px;
     }
     .title-menu {
-        font-size: 20px;
+        font-size: 16px;
     }
     nav ul {
-        font-size: 14px;
+        font-size: 12px;
+        padding: 10px;
     }
 }
 
